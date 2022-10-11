@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace, sans-serif;
+}
+
+button {
+  padding: 1rem 2rem;
+  border: 0.1rem rgb(40, 36, 33) solid;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: white;
+  color: rgb(40, 36, 33);
+}
+
+button:hover {
+  background-color: beige;
+}
+
+input {
+  margin-top: 1rem;
+  padding: 0.5rem 0.5rem;
+  border: 0.1rem rgb(40, 36, 33) solid;
+  border-radius: 0.25rem;
+}
+
+div {
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 2rem;
+  user-select: none;
+}
+
+div:hover {
+  color: gray;
+}
